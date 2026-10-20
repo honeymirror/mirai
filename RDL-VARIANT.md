@@ -8,7 +8,7 @@ RenderDragonShaderLoader.
 
 - Original project: [bambosan/mirai](https://github.com/bambosan/mirai)
 - Original author: bambosan
-- Upstream version used for this variant: Mirai 3.1.0
+- Upstream version used for this variant: Mirai 3.0.0
 - Original license: MIT, preserved in [LICENSE](LICENSE)
 
 This variant is not published, endorsed, or supported by the original author as an official
