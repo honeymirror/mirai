@@ -1,0 +1,18 @@
+{
+  "packVersion": 1,
+  "name": "Mirai",
+  "gameVersion": "1.26.51",
+  "defaultPreset": "default",
+  "profiles": [
+    "windows"
+  ],
+  "backend": "albite",
+  "presets": [
+    {
+      "id": "default",
+      "label": "Default",
+      "settings": "presets/default/settings.txt",
+      "bins": "presets/default/renderer/materials"
+    }
+  ]
+}

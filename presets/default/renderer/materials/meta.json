@@ -1,0 +1,238 @@
+{
+  "metaVersion": 1,
+  "pack": "Mirai",
+  "preset": "default",
+  "createdUtc": 1792476204,
+  "settingsHash": "14650fb0739d0383",
+  "macros": [],
+  "profiles": [
+    "windows"
+  ],
+  "platform": "Direct3D_SM65",
+  "backend": "albite",
+  "compiler": "lazurite",
+  "compilerVersion": "lazurite|cache2",
+  "complete": true,
+  "stage": 0,
+  "stageCount": 1,
+  "elapsedMs": 247604,
+  "materialCount": 54,
+  "materials": [
+    {
+      "name": "ActorBannerForwardPBR.material.bin",
+      "size": 4269403
+    },
+    {
+      "name": "ActorBannerPrepass.material.bin",
+      "size": 1063049
+    },
+    {
+      "name": "ActorForwardPBR.material.bin",
+      "size": 9753974
+    },
+    {
+      "name": "ActorGlintForwardPBR.material.bin",
+      "size": 3333640
+    },
+    {
+      "name": "ActorGlintPrepass.material.bin",
+      "size": 846030
+    },
+    {
+      "name": "ActorMultiTextureForwardPBR.material.bin",
+      "size": 6564984
+    },
+    {
+      "name": "ActorMultiTexturePrepass.material.bin",
+      "size": 1653073
+    },
+    {
+      "name": "ActorPatternForwardPBR.material.bin",
+      "size": 19971230
+    },
+    {
+      "name": "ActorPatternGlintForwardPBR.material.bin",
+      "size": 12549041
+    },
+    {
+      "name": "ActorPatternGlintPrepass.material.bin",
+      "size": 2966006
+    },
+    {
+      "name": "ActorPatternPrepass.material.bin",
+      "size": 8334195
+    },
+    {
+      "name": "ActorPrepass.material.bin",
+      "size": 2447567
+    },
+    {
+      "name": "ActorTintForwardPBR.material.bin",
+      "size": 3262368
+    },
+    {
+      "name": "ActorTintPrepass.material.bin",
+      "size": 820886
+    },
+    {
+      "name": "Bloom.material.bin",
+      "size": 39817
+    },
+    {
+      "name": "CloudsForwardPBR.material.bin",
+      "size": 47897
+    },
+    {
+      "name": "ColorPostProcessing.material.bin",
+      "size": 13267
+    },
+    {
+      "name": "DeferredIndirectSpecular.material.bin",
+      "size": 52021
+    },
+    {
+      "name": "DeferredMixedResolution.material.bin",
+      "size": 143844
+    },
+    {
+      "name": "DeferredMixedResolutionCaustics.material.bin",
+      "size": 14391
+    },
+    {
+      "name": "DeferredMixedResolutionLightingPrepass.material.bin",
+      "size": 89018
+    },
+    {
+      "name": "DeferredMixedResolutionSurfaceRadiance.material.bin",
+      "size": 59140
+    },
+    {
+      "name": "DeferredShading.material.bin",
+      "size": 32102
+    },
+    {
+      "name": "DeferredShadingBase.material.bin",
+      "size": 8189
+    },
+    {
+      "name": "DeferredWater.material.bin",
+      "size": 103154
+    },
+    {
+      "name": "EndSkyForwardPBR.material.bin",
+      "size": 14944
+    },
+    {
+      "name": "GlowInkSignForwardPBR.material.bin",
+      "size": 1397565
+    },
+    {
+      "name": "ItemInHandForwardPBR.material.bin",
+      "size": 912791
+    },
+    {
+      "name": "ItemInHandForwardPBRGlint.material.bin",
+      "size": 950878
+    },
+    {
+      "name": "ItemInHandForwardPBRTextured.material.bin",
+      "size": 1113971
+    },
+    {
+      "name": "ItemInHandPrepass.material.bin",
+      "size": 157190
+    },
+    {
+      "name": "ItemInHandPrepassGlint.material.bin",
+      "size": 174797
+    },
+    {
+      "name": "ItemInHandPrepassTextured.material.bin",
+      "size": 261426
+    },
+    {
+      "name": "LegacyCubemap.material.bin",
+      "size": 29745
+    },
+    {
+      "name": "LegacyCubemapForwardPBR.material.bin",
+      "size": 26033
+    },
+    {
+      "name": "LightClustering.material.bin",
+      "size": 11140
+    },
+    {
+      "name": "MeshFallbackForwardPBR.material.bin",
+      "size": 8213176
+    },
+    {
+      "name": "MeshFallbackPrepass.material.bin",
+      "size": 679000
+    },
+    {
+      "name": "ParticleForwardPBR.material.bin",
+      "size": 203199
+    },
+    {
+      "name": "ParticlePrepass.material.bin",
+      "size": 79800
+    },
+    {
+      "name": "PopulateVolume.material.bin",
+      "size": 109468
+    },
+    {
+      "name": "RenderChunkForwardPBR.material.bin",
+      "size": 3132948
+    },
+    {
+      "name": "RenderChunkPrepass.material.bin",
+      "size": 817137
+    },
+    {
+      "name": "ScreenSpaceReflections.material.bin",
+      "size": 49689
+    },
+    {
+      "name": "SingleBlockForwardPBR.material.bin",
+      "size": 1682886
+    },
+    {
+      "name": "SingleBlockPrepass.material.bin",
+      "size": 3468738
+    },
+    {
+      "name": "SkyProbeDeferredShading.material.bin",
+      "size": 83237
+    },
+    {
+      "name": "StarsForwardPBR.material.bin",
+      "size": 38623
+    },
+    {
+      "name": "SunMoonForwardPBR.material.bin",
+      "size": 44276
+    },
+    {
+      "name": "TextureShiftRenderChunkPrepass.material.bin",
+      "size": 243267
+    },
+    {
+      "name": "VolumetricsShadows.material.bin",
+      "size": 38138
+    },
+    {
+      "name": "WaterExtinction.material.bin",
+      "size": 13706
+    },
+    {
+      "name": "WaterPrepass.material.bin",
+      "size": 212974
+    },
+    {
+      "name": "WeatherForwardPBR.material.bin",
+      "size": 1008162
+    }
+  ]
+}

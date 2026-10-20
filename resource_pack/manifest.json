@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Mirai 3.0.0",
+    "description": "Make Minecraft looks realistic\nBy: bambosan",
+    "uuid": "b563586d-0381-4a48-915a-0aa30935ccca",
+    "version": [3, 0, 0],
+    "min_engine_version": [1, 26, 50]
+  },
+  "modules": [
+    {
+      "description": "Make Minecraft looks realistic\nBy: bambosan",
+      "type": "resources",
+      "uuid": "9b513571-7c9b-4360-aa0c-c3592f313c0c",
+      "version": [3, 0, 0]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "options": [
+    {
+      "type": "vec4",
+      "macro": "MIDDLE_GRAY",
+      "min": 0.05,
+      "max": 0.5,
+      "default": 0.18,
+      "step": 0.01,
+      "group": "LIGHTING",
+      "langKey": "option.MIDDLE_GRAY",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_MiddleGray"
+    },
+    {
+      "type": "vec4",
+      "macro": "EXPOSURE_MULTIPLIER",
+      "min": 0.4,
+      "max": 2.0,
+      "default": 1.0,
+      "step": 0.01,
+      "group": "LIGHTING",
+      "langKey": "option.EXPOSURE_MULTIPLIER",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "ColorPostProcessing",
+      "uniform": "RDL_OutputExposure"
+    },
+    {
+      "type": "vec4",
+      "macro": "SKY_AMBIENT_MULTIPLIER",
+      "min": 0.0,
+      "max": 5.0,
+      "default": 2.0,
+      "step": 0.05,
+      "group": "LIGHTING",
+      "langKey": "option.SKY_AMBIENT_MULTIPLIER",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_SkyAmbient"
+    },
+    {
+      "type": "vec4",
+      "macro": "BLOCK_AMBIENT_MULTIPLIER",
+      "min": 0.0,
+      "max": 0.1,
+      "default": 0.01,
+      "step": 0.01,
+      "group": "LIGHTING",
+      "langKey": "option.BLOCK_AMBIENT_MULTIPLIER",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_BlockAmbient"
+    },
+    {
+      "type": "vec4",
+      "macro": "EMISSIVE_MATERIAL_INTENSITY",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.1,
+      "step": 0.01,
+      "group": "LIGHTING",
+      "langKey": "option.EMISSIVE_MATERIAL_INTENSITY",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_Emissive"
+    },
+    {
+      "type": "vec4",
+      "macro": "BORDER_FOG_INTENSITY",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.1,
+      "step": 0.01,
+      "group": "LIGHTING",
+      "langKey": "option.BORDER_FOG_INTENSITY",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_BorderFog"
+    },
+    {
+      "type": "vec4",
+      "macro": "SUN_RADIANCE_MULTIPLIER",
+      "min": 0.0,
+      "max": 3.0,
+      "default": 1.0,
+      "step": 0.05,
+      "group": "LIGHTING",
+      "langKey": "option.SUN_RADIANCE_MULTIPLIER",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_SunRadiance"
+    },
+    {
+      "type": "vec4",
+      "macro": "MOON_RADIANCE_MULTIPLIER",
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "step": 0.05,
+      "group": "LIGHTING",
+      "langKey": "option.MOON_RADIANCE_MULTIPLIER",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_MoonRadiance"
+    },
+    {
+      "type": "vec4",
+      "macro": "AERIAL_SCALE",
+      "min": 0.0,
+      "max": 3.0,
+      "default": 1.0,
+      "step": 0.05,
+      "group": "ATMOSPHERE",
+      "langKey": "option.AERIAL_SCALE",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_AerialScale"
+    },
+    {
+      "type": "vec4",
+      "macro": "ATMOSPHERE_HEIGHT",
+      "min": 50000.0,
+      "max": 200000.0,
+      "default": 100000.0,
+      "step": 1000.0,
+      "group": "ATMOSPHERE",
+      "langKey": "option.ATMOSPHERE_HEIGHT",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_AtmosphereHeight"
+    },
+    {
+      "type": "vec4",
+      "macro": "ATMOSPHERE_DENSITY",
+      "min": 0.0,
+      "max": 3.0,
+      "default": 1.0,
+      "step": 0.05,
+      "group": "ATMOSPHERE",
+      "langKey": "option.ATMOSPHERE_DENSITY",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_AtmosphereDensity"
+    },
+    {
+      "type": "vec4",
+      "macro": "RAYLEIGH_MAX_LUM",
+      "min": 0.0,
+      "max": 5.0,
+      "default": 2.5,
+      "step": 0.05,
+      "group": "ATMOSPHERE",
+      "langKey": "option.RAYLEIGH_MAX_LUM",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_RayleighLum"
+    },
+    {
+      "type": "vec4",
+      "macro": "MIE_MAX_LUM",
+      "min": 0.0,
+      "max": 2.0,
+      "default": 0.5,
+      "step": 0.05,
+      "group": "ATMOSPHERE",
+      "langKey": "option.MIE_MAX_LUM",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_MieLum"
+    },
+    {
+      "type": "vec4",
+      "macro": "M_OZONE",
+      "min": 0.0,
+      "max": 10.0,
+      "default": 5.0,
+      "step": 0.1,
+      "group": "ATMOSPHERE",
+      "langKey": "option.M_OZONE",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_Ozone"
+    },
+    {
+      "type": "vec4",
+      "macro": "CAM_ALTITUDE",
+      "min": 0.0,
+      "max": 500.0,
+      "default": 100.0,
+      "step": 0.1,
+      "group": "ATMOSPHERE",
+      "langKey": "option.CAM_ALTITUDE",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_CamAltitude"
+    },
+    {
+      "type": "vec4",
+      "macro": "CIRRUS_HEIGHT",
+      "min": 0.0,
+      "max": 1000.0,
+      "default": 580.0,
+      "step": 10.0,
+      "group": "CLOUDS",
+      "langKey": "option.CIRRUS_HEIGHT",
+      "kind": "uniform",
+      "control": "slider",
+      "components": [
+        0
+      ],
+      "material": "*",
+      "uniform": "RDL_CirrusHeight"
+    }
+  ]
+}
